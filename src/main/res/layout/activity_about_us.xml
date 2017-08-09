@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivanika.dhobirite.about_us">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff"
+            android:padding="2dp"
+            android:src="@drawable/about" />
+
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="59dp"
+            android:text=" \n \t\t About Us   "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text=" \n DhobiRite is a professional on-demand dry cleaning service. We provide you the best laundry and dry-cleaning services with affordable pricing. We understand the pressure of a busy and high-powered life and hence provide services on your doorstep. From traditional self-service cleaning options to convenient online ordering with pickup and drop-off services, we have got you covered! We do laundry and dry-cleaning of all types of garments and fabrics.
+
+Not able to wash your laundry and stuff becaue of your schedule..??
+No Problem, Let us do it for you. We are here to make your life easier We will come to your place to pick up your laundry and deliver you back. \n\n "
+    />
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

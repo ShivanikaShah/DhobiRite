@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivanika.dhobirite.order">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="@android:color/holo_red_light"
+                android:textSize="25dp"
+                tools:textColorLink="@android:color/holo_red_dark" />
+
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Email Id"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="@android:color/holo_red_light"
+                android:textSize="25dp"
+                tools:textColorLink="@android:color/holo_red_dark" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="@android:color/holo_red_light"
+                android:textSize="25dp"
+                tools:textColorLink="@android:color/holo_red_dark" />
+
+            <EditText
+                android:id="@+id/editTextService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint=" Service Required "
+                android:inputType="textLongMessage"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="@android:color/holo_red_light"
+                android:textSize="25dp"
+                tools:textColorLink="@android:color/holo_red_dark" />
+
+
+            <Button
+                android:id="@+id/buttonContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#212121"
+                android:padding="1dp"
+                android:text=" Order "
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:onClick="click2"/>
+
+            <Button
+                android:id="@+id/buttonOthers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#212121"
+                android:padding="1dp"
+                android:text=" Our Services "
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:onClick="click3"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

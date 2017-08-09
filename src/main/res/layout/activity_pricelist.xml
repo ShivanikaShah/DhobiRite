@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivanika.dhobirite.pricelist">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="  Laundry on KG Basis"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On an average 4 Gents / 6 Ladies garments makes a kg "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:background="#003264">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Premium Laundry\nRs 120/kg."
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Wash + Iron\nRs 75/kg."
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Wash only\nRs 60/kg."
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Press only\nRs 60/kg."
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text=" Car Wash"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Just one call away"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:background="#003264">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Small car"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Family car"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Big car"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Luxury car"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFBE">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Platinum Wash
+
+Rs 430/-
+
+Rubbing
+
+Rs 630/-
+
+Seats
+
+Rs 380/-
+
+Doors
+
+Rs 280/-
+
+Roof
+
+Rs 140/-
+
+Dashboard
+
+Rs 130/-
+
+Carpet
+
+Rs 180/-
+
+Pillars and Seatbelts
+
+Rs 280/-
+
+Detailing (above all)
+
+Rs 1699/-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Platinum Wash
+
+Rs 530/-
+
+Rubbing
+
+Rs 730/-
+
+Seats
+
+Rs 480/-
+
+Doors
+
+Rs 380/-
+
+Roof
+
+Rs 230/-
+
+Dashboard
+
+Rs 180/-
+
+Carpet
+
+Rs 280/-
+
+Pillars and Seatbelts
+
+Rs 380/-
+
+Detailing (above all)
+
+Rs 2099/-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Platinum Wash
+
+Rs 580/-
+
+Rubbing
+
+Rs 780/-
+
+Seats
+
+Rs 580/-
+
+Doors
+
+Rs 480/-
+
+Roof
+
+Rs 280/-
+
+Dashboard
+
+Rs 230/-
+
+Carpet
+
+Rs 330/-
+
+Pillars and Seatbelts
+
+Rs 430/-
+
+Detailing (above all)
+
+Rs 2299/-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Platinum Wash
+
+Rs 630/-
+
+Rubbing
+
+Rs 830/-
+
+Seats
+
+Rs 680/-
+
+Doors
+
+Rs 580/-
+
+Roof
+
+Rs 380/-
+
+Dashboard
+
+Rs 230/-
+
+Carpet
+
+Rs 380/-
+
+Pillars and Seatbelts
+
+Rs 480/-
+
+Detailing (above all)
+
+Rs 2499/-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Shoes"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servicing time 6-9 days"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:background="#003264">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Leather"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Sports"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Suede"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Ankle Suede"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFBE">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Dry-cleaning
+
+Rs 289/-
+
+Re-coloring
+
+Rs 209/-
+
+Stiching
+
+Rs 179/-
+
+Lace Replacement
+
+Rs 79/-
+
+Rivet Replacement
+
+Rs 49/-
+
+Inner Sole Replacement
+
+Rs 189/-
+
+Sole Pasting
+
+Rs 419/-
+
+Sole Replacement
+
+Rs 919/-
+
+Net Replacement
+
+--
+
+Patch / Repair
+
+Rs 189/-
+
+Heel Pasting
+
+Rs 419/-
+
+Heel Replacement
+
+Rs 299/-
+
+Collar Replacement
+
+Rs 419/-
+
+Toe Replacement
+
+--"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Dry-cleaning
+
+Rs 289/-
+
+Re-coloring
+
+--
+
+Stiching
+
+Rs 179/-
+
+Lace Replacement
+
+Rs 79/-
+
+Rivet Replacement
+
+Rs 49/-
+
+Inner Sole Replacement
+
+Rs 189/-
+
+Sole Pasting
+
+Rs 419/-
+
+Sole Replacement
+
+--
+
+Net Replacement
+
+Rs 629/-
+
+Patch / Repair
+
+Rs 189/-
+
+Heel Pasting
+
+Rs 429/-
+
+Heel Replacement
+
+--
+
+Collar Replacement
+
+Rs 329/-
+
+Toe Replacement
+
+Rs 329/-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Dry-cleaning
+
+Rs 439/-
+
+Re-coloring
+
+Rs 209/-
+
+Stiching
+
+Rs 179/-
+
+Lace Replacement
+
+Rs 79/-
+
+Rivet Replacement
+
+Rs 49/-
+
+Inner Sole Replacement
+
+Rs 189/-
+
+Sole Pasting
+
+Rs 419/-
+
+Sole Replacement
+
+Rs 919/-
+
+Net Replacement
+
+--
+
+Patch / Repair
+
+Rs 189/-
+
+Heel Pasting
+
+Rs 419/-
+
+Heel Replacement
+
+Rs 299/-
+
+Collar Replacement
+
+Rs 419/-
+
+Toe Replacement
+
+--"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Dry-cleaning
+
+Rs 739/-
+
+Re-coloring
+
+Rs 319/-
+
+Stiching
+
+Rs 249/-
+
+Lace Replacement
+
+Rs 79/-
+
+Rivet Replacement
+
+Rs 49/-
+
+Inner Sole Replacement
+
+Rs 189/-
+
+Sole Pasting
+
+Rs 419/-
+
+Sole Replacement
+
+Rs 919/-
+
+Net Replacement
+
+--
+
+Patch / Repair
+
+Rs 189/-
+
+Heel Pasting
+
+Rs 419/-
+
+Heel Replacement
+
+Rs 299/-
+
+Collar Replacement
+
+Rs 419/-
+
+Toe Replacement
+
+--"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Hand Bags"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servicing time 6-9 days"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:background="#003264">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Leather"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Non-Leather"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFBE">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Polishing
+
+Rs 669/-
+
+Conditioning
+
+Rs 319/-
+
+Recoloring
+
+Rs 549/-
+
+Stiching
+
+Rs 419/-
+
+Strap Replacement
+
+Rs 509/-
+
+Zip Replacement
+
+Rs 289/-
+
+Patchwork
+
+Rs 349/-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Polishing
+
+Rs 569/-
+
+Conditioning
+
+Rs 219/-
+
+Recoloring
+
+--
+
+Stiching
+
+Rs 419/-
+
+Strap Replacement
+
+Rs 419/-
+
+Zip Replacement
+
+Rs 289/-
+
+Patchwork
+
+Rs 299/-"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Premium Dry-Cleaning"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:background="#003264">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Daily"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Ethnic"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Woolen"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="Household"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFBE">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="TIE - 49
+SHIRT - 84
+SHIRT SILK / WOOLEN - 119
+T-SHIRT - 84
+TROUSER - 89
+JEANS - 89
+SHORTS - 33
+LOWER/LEGGING - 49
+LADIES TOP - 74
+SKIRT - 74
+DRESS - 114
+DRESS (DESIGNER) - 149
+GOWN - 74
+SOCKS - 7
+VEST - 7
+UNDERGARMENT - 7
+HANDKERCHIEF - 7"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="GENTS KURTA - 74
+GENTS PAYJAMA - 74
+GENTS SHERWANI - 489
+GENTS DUPATTA - 36
+GENTS DUPATTA SHERWANI - 59
+DUPATTA - 36
+DUPATTA (HEAVY) - 59
+DUPATTA (LEHNGA) - 159
+LADIES KAMEEJ - 74
+LADIES KAMEEJ - LIGHT EMBROIDRY - 129
+LADIES KAMEEJ - HEAVY - 189
+KURTA - 74
+PAYJAMA / SALWAR - 69
+LEHNGA - 479
+LEHNGA HEAVY (BRIDAL) - 799
+CHOLI - 74
+CHARAK - 40
+SAREE (NORMAL) - 74
+SAREE (MEDIUM) - 174
+SAREE (HEAVY) - 359
+BLOUSE - 49
+BLOUSE (HEAVY) - 89"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="SCARF / MUFFLER / CAP - 44
+INNER - 54
+COAT - 169
+WAIST COAT - 114
+SAFARI SUIT (COAT) - 144
+OVER COAT - 199
+OVER COAT (WOOLEN) - 339
+JACKET (HALF) - 139
+JACKET (FULL) - 169
+JACKET LEATHER - 314
+SWEAT-SHIRT - 145
+SWEATER-HALF - 74
+SWEATER-FULL - 145
+STOLE - 119
+SHAWL - 174
+SHAWL FANCY / PASHMINA - 289
+BLANKET AC / SMALL - 169
+BLANKET (S) - 219
+BLANKET (D) - 319
+JAIPURI RAJAI (SINGLE) - 229
+JAIPURI RAJAI (DOUBLE) - 329
+RAJAI (S) - 299
+RAJAI (D) - 399"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:text="BEDSHEET (S) - 74
+BEDSHEET (D) - 148
+BED COVER - 144
+PILLOW COVER - 44
+CURTAIN NET - 119
+CURTAIN WINDOW - 124
+CURTAIN WINDOW LINING - 129
+CURTAIN DOOR - 129
+CURTAIN DOOR LINING - 119
+CURTAIN CEILING - 219
+CURTAIN CEILING LINING - 299
+CUSHION COVER - 44
+TEDDY - SMALL - 199
+TEDDY - MEDIUM - 289
+TEDDY - LARGE - 599
+CARPET (PER-SQ-FT) - 23
+SOFA (PER SEAT) - 299"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
